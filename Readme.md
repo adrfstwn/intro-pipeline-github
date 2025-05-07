@@ -35,8 +35,14 @@ A continuous integration and continuous deployment (CI/CD) pipeline is a series 
 
 <br>
 
-# What is Github Actions?
+## What is Github Actions?
 
 ![Github Actions](assets/gh-action.png)
 
 GitHub Actions is a continuous integration and continuous delivery (CI/CD) platform that allows you to automate your build, test, and deployment pipeline. You can create workflows that build and test every pull request to your repository, or deploy merged pull requests to production. [Sumber](https://docs.github.com/en/actions/about-github-actions/understanding-github-actions)
+
+<br>
+
+## YAML file?
+
+YAML is a human-readable data serialization language that is often used for writing configuration files. Depending on whom you ask, YAML stands for yet another markup language or YAML ain’t markup language (a recursive acronym), which emphasizes that YAML is for data, not documents. [Sumber](https://www.redhat.com/en/topics/automation/what-is-yaml)
