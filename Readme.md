@@ -1,6 +1,6 @@
 ## What is CI/CD?
 
-<img src="assets/cicd.png" width="300">
+<img src="assets/cicd.png" width="500">
 
 CI/CD, standing for **Continuous Integration** and **Continuous Delivery/Deployment**, is a DevOps practice that automates and streamlines the software development and deployment lifecycle.
 
@@ -29,7 +29,7 @@ is an advanced form of CD where every code change that passes all stages of your
 
 ## What is CI/CD Pipeline?
 
-![CI/CD Pipeline](assets/what-pipeline.png)
+<img src="assets/what-pipeline.png" width="500">
 
 A continuous integration and continuous deployment (CI/CD) pipeline is a series of established steps that developers must follow in order to deliver a new version of software. CI/CD pipelines are a practice focused on improving software delivery throughout the software development life cycle via automation. [Sumber](https://www.redhat.com/en/topics/devops/what-cicd-pipeline)
 
@@ -37,7 +37,7 @@ A continuous integration and continuous deployment (CI/CD) pipeline is a series 
 
 ## What is Github Actions?
 
-![Github Actions](assets/gh-action.png)
+<img src="assets/gh-action.png" width="500">
 
 GitHub Actions is a continuous integration and continuous delivery (CI/CD) platform that allows you to automate your build, test, and deployment pipeline. You can create workflows that build and test every pull request to your repository, or deploy merged pull requests to production. [Sumber](https://docs.github.com/en/actions/about-github-actions/understanding-github-actions)
 
@@ -45,5 +45,6 @@ GitHub Actions is a continuous integration and continuous delivery (CI/CD) platf
 
 ## YAML file?
 
-![YAML File](assets/yaml.png)
+<img src="assets/yaml.png" width="500">
+
 YAML is a human-readable data serialization language that is often used for writing configuration files. Depending on whom you ask, YAML stands for yet another markup language or YAML ain’t markup language (a recursive acronym), which emphasizes that YAML is for data, not documents. [Sumber](https://www.redhat.com/en/topics/automation/what-is-yaml)
