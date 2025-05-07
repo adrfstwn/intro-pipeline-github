@@ -1,0 +1,16 @@
+name: Get Started with GitHub Actions
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+    print-job: // nama job
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout code/repository
+              uses: actions/checkout@v4
+            
+              - name: Print Hello World
+                run: echo "Hello World"
