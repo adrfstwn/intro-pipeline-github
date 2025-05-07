@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-    print-job: // nama job
+    print-job:  # nama job bebas
         runs-on: ubuntu-latest
         steps:
             - name: Checkout code/repository
