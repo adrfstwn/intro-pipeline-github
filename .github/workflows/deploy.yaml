@@ -26,8 +26,13 @@ jobs:
           key: ${{ secrets.VPS_PASSWORD }}
           port: 22
           script: |
+            echo "List Directory"
             ls -a
+
+            echo "Change directory to target directory"
             cd /home/wawan/intro-pipepine-github
+
+            echo "Pull Latest Code"
             git pull origin main
 
       - name: Deploy to server
