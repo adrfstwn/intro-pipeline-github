@@ -9,8 +9,8 @@ jobs:
   print-job: # nama job bebas
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code/repository
-        uses: actions/checkout@v4
+      #   - name: Checkout code/repository
+      #     uses: actions/checkout@v4
 
       - name: Print Hello World
         run: echo "Hello World"
