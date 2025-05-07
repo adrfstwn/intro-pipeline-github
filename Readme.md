@@ -29,7 +29,7 @@ is an advanced form of CD where every code change that passes all stages of your
 
 ## What is CI/CD Pipeline?
 
-<img src="assets/what-pipeline.png" width="500">
+<img src="assets/what-pipeline.png" width="800">
 
 A continuous integration and continuous deployment (CI/CD) pipeline is a series of established steps that developers must follow in order to deliver a new version of software. CI/CD pipelines are a practice focused on improving software delivery throughout the software development life cycle via automation. [Sumber](https://www.redhat.com/en/topics/devops/what-cicd-pipeline)
 
