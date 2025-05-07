@@ -29,7 +29,6 @@ jobs:
             ls -a
             cd /home/wawan/intro-pipepine-github
             git pull origin main
-            sudo systemctl restart nginx
 
       - name: Deploy to server
         run: |
