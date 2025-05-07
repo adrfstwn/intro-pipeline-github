@@ -45,4 +45,5 @@ GitHub Actions is a continuous integration and continuous delivery (CI/CD) platf
 
 ## YAML file?
 
+![YAML File](assets/yaml.png)
 YAML is a human-readable data serialization language that is often used for writing configuration files. Depending on whom you ask, YAML stands for yet another markup language or YAML ain’t markup language (a recursive acronym), which emphasizes that YAML is for data, not documents. [Sumber](https://www.redhat.com/en/topics/automation/what-is-yaml)
