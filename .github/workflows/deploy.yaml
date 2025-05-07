@@ -13,6 +13,11 @@ jobs:
       - name: Checkout code/repository
         uses: actions/checkout@v4
 
+      - name: Cek hasil Checkout
+        run: |
+          ls -a
+          ls -l
+
       - name: Execute remote SSH
         uses: appleboy/ssh-action@v1
         with:
@@ -20,9 +25,13 @@ jobs:
           username: ${{ secrets.VPS_USERNAME }}
           key: ${{ secrets.VPS_PASSWORD }}
           port: 22
-          script: ls -a
+          script: |
+            ls -a
+            cd /home/wawan/intro-pipepine-github
+            git pull origin main
+            sudo systemctl restart nginx
 
-    #   - name: Deploy to server
-    #     run: |
-    #       echo "Deploying to server..."
-    #       # ssh user@server "cd /path/to/app && git pull && npm install && pm2 restart app"
+      - name: Deploy to server
+        run: |
+          echo "Hellow"
+          echo "World"
