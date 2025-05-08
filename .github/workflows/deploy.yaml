@@ -10,20 +10,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code/repository
-        uses: actions/checkout@v4
-
-      - name: Cek hasil Checkout
-        run: |
-          ls -a
-          ls -l
-
-      - name: Execute remote SSH
+      - name: Login ke VPS dan auto deploy
         uses: appleboy/ssh-action@v1
         with:
-          host: ${{ secrets.VPS_HOST}}
-          username: ${{ secrets.VPS_USERNAME }}
-          key: ${{ secrets.VPS_PASSWORD }}
+          host: ${{ secrets.VPS1_HOST}}
+          username: ${{ secrets.VPS1_USER }}
+          key: ${{ secrets.VPS1_PASSWORD }}
           port: 22
           script: |
             echo "List Directory"
@@ -34,8 +26,3 @@ jobs:
 
             echo "Pull Latest Code"
             git pull origin main
-
-      - name: Deploy to server
-        run: |
-          echo "Hellow"
-          echo "World"
