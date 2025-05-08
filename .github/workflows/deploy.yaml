@@ -13,7 +13,7 @@ jobs:
       - name: Login ke VPS dan auto deploy
         uses: appleboy/ssh-action@v1
         with:
-          host: ${{ secrets.VPS1_HOST}}
+          host: ${{ secrets.VPS1_HOS}}
           username: ${{ secrets.VPS1_USER }}
           key: ${{ secrets.VPS1_PASSWORD }}
           port: 22
